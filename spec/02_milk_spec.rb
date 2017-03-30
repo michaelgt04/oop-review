@@ -1,7 +1,7 @@
 require_relative 'spec_helper'
 
 RSpec.describe Milk do
-  let(:chocolate_milk) { Milk.new('chocolate', 1) }
+  let(:chocolate_milk) { Milk.new('Chocolate', 1) }
 
   describe '#new' do
     it 'takes in a flavor and fat percent as an argument' do
